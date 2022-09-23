@@ -1,0 +1,20 @@
+.bara-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center ;
+  background-color: rgb(243, 243, 243);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+  height: 50px;
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+  color: #2a207c;
+}

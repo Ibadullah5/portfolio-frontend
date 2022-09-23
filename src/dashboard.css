@@ -1,0 +1,237 @@
+
+body {
+  background-image: url('./pexels-gradienta-7130471.jpg');
+  margin: 0; height: 100%;
+  background-repeat:repeat;
+  background-size: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  min-width: 40%;
+  max-width: 60%;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: linear-gradient(to bottom, rgb(75, 49, 190) 0%,rgb(0, 47, 255) 100%);
+  color: rgb(217, 231, 245);
+  box-shadow: 0px 2.985px 7.45px rgba(0, 0, 0, 0.1);
+}
+.about-me >p{
+  cursor: default;
+  margin: 0;
+}
+.about-me >h1{
+  cursor:default;
+  margin: 0;
+}
+.about-me >button{
+  cursor: pointer;
+  height: 30px;
+  width:70px;
+  background-color: transparent;
+  border: none;
+  border-radius: 2px;
+  color: rgb(227, 228, 252);
+  font-weight: bolder;
+  padding:0;
+  margin: -13px;
+}
+
+.image{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+
+.intro-div{  
+  border-radius: 10px;
+  background: linear-gradient(to bottom, rgb(75, 49, 190) 0%,rgb(0, 47, 255) 100%);
+  background-color: rgb(75, 49, 190);
+  color: rgb(227, 228, 252);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+  margin-left: 50px;
+  box-shadow: 0px 2.985px 7.45px rgba(0, 0, 0, 0.1);
+  height: 80vh;
+}
+
+.logout-button{
+  margin-bottom: 10px;
+  background: linear-gradient(to bottom, rgb(75, 49, 190) 0%,rgb(24, 56, 199) 100%);
+  height: 30px;
+  width: 60px;
+  border: none;
+}
+.sign-out-icon{
+  height: 20px;
+}
+
+.logout-button:hover{
+  box-shadow: 0px 2.985px 7.45px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.intro-div > h3{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.contacts{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.icons{
+  margin-left: 20px;
+  height: 30px;
+}::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.main-div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 50em;
+}
+.custom-select {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  color: rgb(110, 48, 48);
+  margin-top: 25px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+
+.custom-select select {
+  color: #000;
+  display: block;
+  width: 130px;
+  min-height: 37px;
+  background: transparent;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 0 20px 5px 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.custom-field {
+  position: relative;
+  font-size: 14px;
+  border-top: 20px solid transparent;
+  margin-bottom: 5px;
+}
+
+.custom-field input {
+  margin-right: 10px;
+  color: #000;
+  border-color: #000;
+  border-style: solid;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  padding: 12px;
+  padding-bottom: 13.5px;
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+  font-size: 14px;
+}
+
+.custom-field .placeholder {
+  position: absolute;
+  left: 12px;
+  top: calc(50% + 10%);
+  transform: translateY(-50%);
+  color: #000;
+  transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+    font-size 0.3s ease;
+}
+
+.custom-field input:focus + .placeholder,
+.custom-field input:valid + .placeholder{
+  top: -20px;
+  font-size: 10px;
+  color: #000;
+}
+
+.output{
+  margin-right: 10px;
+  color: #000;
+  border-color: #000;
+  border-style: solid;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  padding: 12px;
+  padding-bottom: 13.5px;
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+  font-size: 14px;
+}
+::placeholder{
+  color:#000;
+}
+
+.convert-button{
+  margin-top: 20px;
+  width: 90px;
+  height: 30px;
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.convert-button:hover{
+  background-color: #000;
+  color: transparent;
+}
+
+.div-3{
+  margin-left: 150px;
+}
+.heading{
+    font-size: 35px;
+    color:#000;
+    margin-bottom:50px;
+}
